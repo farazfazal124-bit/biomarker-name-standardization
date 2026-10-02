@@ -1,0 +1,777 @@
+model,item,tag,gold,pred,top_score,outcome,correct,gold_rank
+SapBERT,HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.9184,Correct match,True,
+SapBERT,hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.7147,Correct match,True,
+SapBERT,good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.6475,Correct match,True,
+SapBERT,"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.7586,Correct match,True,
+SapBERT,ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.6766,Correct match,True,
+SapBERT,bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.6271,Correct match,True,
+SapBERT,Trigs,Short abbreviation,Triglycerides,Triglycerides,0.713,Correct match,True,
+SapBERT,triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.7383,Correct match,True,
+SapBERT,Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.7256,Correct match,True,
+SapBERT,Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.8634,Correct match,True,
+SapBERT,Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.6353,Correct match,True,
+SapBERT,Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.9266,Correct match,True,
+SapBERT,"HCY, Plasma",Long-form synonym or variant,Homocysteine,Homocysteine,0.6463,Correct match,True,
+SapBERT,Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.8723,Correct match,True,
+SapBERT,hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8193,Correct match,True,
+SapBERT,C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.7821,Correct match,True,
+SapBERT,CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8714,Correct match,True,
+SapBERT,Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.953,Correct match,True,
+SapBERT,FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.7211,Correct match,True,
+SapBERT,"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.8795,Correct match,True,
+SapBERT,Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.9248,Correct match,True,
+SapBERT,FT3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.7504,Correct match,True,
+SapBERT,"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.9538,Correct match,True,
+SapBERT,Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8077,Correct match,True,
+SapBERT,Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.9276,Correct match,True,
+SapBERT,TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.884,Correct match,True,
+SapBERT,DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.9218,Correct match,True,
+SapBERT,DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.9159,Correct match,True,
+SapBERT,"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.892,Correct match,True,
+SapBERT,Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.7008,Correct match,True,
+SapBERT,"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.8491,Correct match,True,
+SapBERT,Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.994,Correct match,True,
+SapBERT,"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.758,Correct match,True,
+SapBERT,Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.9572,Correct match,True,
+SapBERT,FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.925,Correct match,True,
+SapBERT,Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.891,Correct match,True,
+SapBERT,"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.8383,Correct match,True,
+SapBERT,Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.8225,Correct match,True,
+SapBERT,ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.8527,Correct match,True,
+SapBERT,Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.9329,Correct match,True,
+SapBERT,Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Aspartate Aminotransferase (AST),0.7977,Wrong match,False,
+SapBERT,AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.8669,Correct match,True,
+SapBERT,Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.9286,Correct match,True,
+SapBERT,Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.8446,Correct match,True,
+SapBERT,"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),Creatine Kinase (CK),0.8504,Correct match,True,
+SapBERT,Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatine Kinase (CK),0.8498,Correct match,True,
+SapBERT,Urate,Short abbreviation,Uric Acid,Uric Acid,0.7453,Correct match,True,
+SapBERT,Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,0.7338,Correct match,True,
+SapBERT,IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.6655,Correct match,True,
+SapBERT,Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.759,Correct match,True,
+SapBERT,"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.9789,Correct match,True,
+SapBERT,25-OH-D,Short abbreviation,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.973,Correct match,True,
+SapBERT,"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.8379,Correct match,True,
+SapBERT,BUN,Short abbreviation,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.8952,Correct match,True,
+SapBERT,"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.9293,Correct match,True,
+SapBERT,"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.8982,Correct match,True,
+SapBERT,"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.873,Correct match,True,
+SapBERT,ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.718,Correct match,True,
+SapBERT,Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.7672,Correct match,True,
+SapBERT,Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9825,Correct match,True,
+SapBERT,Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.994,Correct match,True,
+SapBERT,ALB,Short abbreviation,Albumin,Albumin,0.8814,Correct match,True,
+SapBERT,WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.9512,Correct match,True,
+SapBERT,Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.8064,Correct match,True,
+SapBERT,RBC,Short abbreviation,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.8847,Correct match,True,
+SapBERT,Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.8348,Correct match,True,
+SapBERT,HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.9185,Correct match,True,
+SapBERT,Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin (Hgb),0.9048,Correct match,True,
+SapBERT,HCT,Short abbreviation,Hematocrit (Hct),Hematocrit (Hct),0.7627,Correct match,True,
+SapBERT,Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Hematocrit (Hct),0.6154,Correct match,True,
+SapBERT,Platelets,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.7982,Correct match,True,
+SapBERT,Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.6952,Correct match,True,
+SapBERT,MCV,Short abbreviation,Mean Corpuscular Volume (MCV),Mean Corpuscular Volume (MCV),0.8512,Correct match,True,
+SapBERT,Serum Iron,Long-form synonym or variant,"Iron, Total",Transferrin Saturation,0.6366,Wrong match,False,
+SapBERT,TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.8446,Correct match,True,
+SapBERT,"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.915,Correct match,True,
+SapBERT,Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,0.9381,Correct match,True,
+SapBERT,TSAT,Short abbreviation,Transferrin Saturation,Aspartate Aminotransferase (AST),0.5341,Wrong match,False,
+SapBERT,"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.8464,Correct match,True,
+SapBERT,PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.9168,Correct match,True,
+SapBERT,Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.8773,Correct match,True,
+SapBERT,"Insulin, Fasting",Long-form synonym or variant,Insulin,Insulin,0.7533,Correct match,True,
+SapBERT,Na+,Short abbreviation,Sodium,Sodium,0.8931,Correct match,True,
+SapBERT,K+,Short abbreviation,Potassium,Potassium,0.9198,Correct match,True,
+SapBERT,Cl-,Short abbreviation,Chloride,Chloride,0.8245,Correct match,True,
+SapBERT,"Sodium, Plasma",Long-form synonym or variant,Sodium,Sodium,0.6697,Correct match,True,
+SapBERT,"Potassium, Serum",Long-form synonym or variant,Potassium,Potassium,0.6667,Correct match,True,
+SapBERT,Complete Blood Count,Panel name (reject),,White Blood Cell Count (WBC),0.7545,False accept,False,
+SapBERT,CBC w/ Differential,Panel name (reject),,,0.507,Correct rejection,True,
+SapBERT,Comprehensive Metabolic Panel,Panel name (reject),,,0.4026,Correct rejection,True,
+SapBERT,CMP,Panel name (reject),,,0.4642,Correct rejection,True,
+SapBERT,Lipid Panel,Panel name (reject),,,0.5974,Correct rejection,True,
+SapBERT,Blood Pressure,Non-biomarker (reject),,,0.4589,Correct rejection,True,
+SapBERT,Patient Name,Non-biomarker (reject),,,0.3736,Correct rejection,True,
+SapBERT,Date of Birth,Non-biomarker (reject),,,0.3905,Correct rejection,True,
+SapBERT,Lab Address,Non-biomarker (reject),,,0.4223,Correct rejection,True,
+SapBERT,Fasting Status: Yes,Non-biomarker (reject),,,0.4151,Correct rejection,True,
+MedEmbed-small,HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.9006,Correct match,True,
+MedEmbed-small,hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8542,Correct match,True,
+MedEmbed-small,good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.7727,Correct match,True,
+MedEmbed-small,"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.8416,Correct match,True,
+MedEmbed-small,ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.8048,Correct match,True,
+MedEmbed-small,bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.7871,Correct match,True,
+MedEmbed-small,Trigs,Short abbreviation,Triglycerides,"Triiodothyronine (T3), Free",0.6698,Wrong match,False,
+MedEmbed-small,triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.8731,Correct match,True,
+MedEmbed-small,Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.705,Correct match,True,
+MedEmbed-small,Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.7818,Correct match,True,
+MedEmbed-small,Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.8083,Correct match,True,
+MedEmbed-small,Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.9454,Correct match,True,
+MedEmbed-small,"HCY, Plasma",Long-form synonym or variant,Homocysteine,Hematocrit (Hct),0.7444,Wrong match,False,
+MedEmbed-small,Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.7844,Correct match,True,
+MedEmbed-small,hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8071,Correct match,True,
+MedEmbed-small,C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8125,Correct match,True,
+MedEmbed-small,CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8371,Correct match,True,
+MedEmbed-small,Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.8771,Correct match,True,
+MedEmbed-small,FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.6379,Correct match,True,
+MedEmbed-small,"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.9597,Correct match,True,
+MedEmbed-small,Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.8718,Correct match,True,
+MedEmbed-small,FT3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.6796,Correct match,True,
+MedEmbed-small,"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.9534,Correct match,True,
+MedEmbed-small,Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.7762,Correct match,True,
+MedEmbed-small,Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8452,Correct match,True,
+MedEmbed-small,TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8631,Correct match,True,
+MedEmbed-small,DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.9245,Correct match,True,
+MedEmbed-small,DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.8436,Correct match,True,
+MedEmbed-small,"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.8269,Correct match,True,
+MedEmbed-small,Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.834,Correct match,True,
+MedEmbed-small,"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9119,Correct match,True,
+MedEmbed-small,Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9767,Correct match,True,
+MedEmbed-small,"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.8554,Correct match,True,
+MedEmbed-small,Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.9125,Correct match,True,
+MedEmbed-small,FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.9211,Correct match,True,
+MedEmbed-small,Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.919,Correct match,True,
+MedEmbed-small,"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.7923,Correct match,True,
+MedEmbed-small,Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.8673,Correct match,True,
+MedEmbed-small,ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.7869,Correct match,True,
+MedEmbed-small,Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.8162,Correct match,True,
+MedEmbed-small,Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Gamma-Glutamyl Transferase (GGT),0.7303,Wrong match,False,
+MedEmbed-small,AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.7621,Correct match,True,
+MedEmbed-small,Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.8592,Correct match,True,
+MedEmbed-small,Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Gamma-Glutamyl Transferase (GGT),0.7323,Wrong match,False,
+MedEmbed-small,"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),Creatine Kinase (CK),0.8058,Correct match,True,
+MedEmbed-small,Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatine Kinase (CK),0.8943,Correct match,True,
+MedEmbed-small,Urate,Short abbreviation,Uric Acid,Uric Acid,0.757,Correct match,True,
+MedEmbed-small,Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,0.8994,Correct match,True,
+MedEmbed-small,IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.8591,Correct match,True,
+MedEmbed-small,Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Low-Density Lipoprotein Cholesterol (LDL-C),0.6665,Wrong match,False,
+MedEmbed-small,"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.9632,Correct match,True,
+MedEmbed-small,25-OH-D,Short abbreviation,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.816,Correct match,True,
+MedEmbed-small,"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.8931,Correct match,True,
+MedEmbed-small,BUN,Short abbreviation,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.8197,Correct match,True,
+MedEmbed-small,"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.9267,Correct match,True,
+MedEmbed-small,"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.8207,Correct match,True,
+MedEmbed-small,"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.8749,Correct match,True,
+MedEmbed-small,ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.7376,Correct match,True,
+MedEmbed-small,Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.8027,Correct match,True,
+MedEmbed-small,Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9847,Correct match,True,
+MedEmbed-small,Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9811,Correct match,True,
+MedEmbed-small,ALB,Short abbreviation,Albumin,Alkaline Phosphatase (ALP),0.6851,Wrong match,False,
+MedEmbed-small,WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.9555,Correct match,True,
+MedEmbed-small,Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.7923,Correct match,True,
+MedEmbed-small,RBC,Short abbreviation,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.8541,Correct match,True,
+MedEmbed-small,Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.7881,Correct match,True,
+MedEmbed-small,HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.8941,Correct match,True,
+MedEmbed-small,Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin (Hgb),0.9252,Correct match,True,
+MedEmbed-small,HCT,Short abbreviation,Hematocrit (Hct),Hematocrit (Hct),0.8464,Correct match,True,
+MedEmbed-small,Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Mean Corpuscular Volume (MCV),0.7432,Wrong match,False,
+MedEmbed-small,Platelets,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.8084,Correct match,True,
+MedEmbed-small,Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),White Blood Cell Count (WBC),0.725,Wrong match,False,
+MedEmbed-small,MCV,Short abbreviation,Mean Corpuscular Volume (MCV),Mean Corpuscular Volume (MCV),0.8017,Correct match,True,
+MedEmbed-small,Serum Iron,Long-form synonym or variant,"Iron, Total","Iron, Total",0.8624,Correct match,True,
+MedEmbed-small,TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.7557,Correct match,True,
+MedEmbed-small,"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.9132,Correct match,True,
+MedEmbed-small,Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,0.9705,Correct match,True,
+MedEmbed-small,TSAT,Short abbreviation,Transferrin Saturation,"Thyroxine (T4), Free",0.6961,Wrong match,False,
+MedEmbed-small,"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.9217,Correct match,True,
+MedEmbed-small,PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.908,Correct match,True,
+MedEmbed-small,Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.8089,Correct match,True,
+MedEmbed-small,"Insulin, Fasting",Long-form synonym or variant,Insulin,Insulin,0.8653,Correct match,True,
+MedEmbed-small,Na+,Short abbreviation,Sodium,Sodium,0.8292,Correct match,True,
+MedEmbed-small,K+,Short abbreviation,Potassium,Potassium,0.7964,Correct match,True,
+MedEmbed-small,Cl-,Short abbreviation,Chloride,Chloride,0.8794,Correct match,True,
+MedEmbed-small,"Sodium, Plasma",Long-form synonym or variant,Sodium,Sodium,0.8928,Correct match,True,
+MedEmbed-small,"Potassium, Serum",Long-form synonym or variant,Potassium,Potassium,0.8703,Correct match,True,
+MedEmbed-small,Complete Blood Count,Panel name (reject),,White Blood Cell Count (WBC),0.7764,False accept,False,
+MedEmbed-small,CBC w/ Differential,Panel name (reject),,25-Hydroxyvitamin D,0.6747,False accept,False,
+MedEmbed-small,Comprehensive Metabolic Panel,Panel name (reject),,Insulin,0.7488,False accept,False,
+MedEmbed-small,CMP,Panel name (reject),,"C-Reactive Protein, High-Sensitivity (hs-CRP)",0.6366,False accept,False,
+MedEmbed-small,Lipid Panel,Panel name (reject),,Lipoprotein(a) (Lp(a)),0.7449,False accept,False,
+MedEmbed-small,Blood Pressure,Non-biomarker (reject),,Hemoglobin (Hgb),0.7477,False accept,False,
+MedEmbed-small,Patient Name,Non-biomarker (reject),,Albumin,0.6383,False accept,False,
+MedEmbed-small,Date of Birth,Non-biomarker (reject),,"Testosterone, Total",0.6146,False accept,False,
+MedEmbed-small,Lab Address,Non-biomarker (reject),,Albumin,0.6702,False accept,False,
+MedEmbed-small,Fasting Status: Yes,Non-biomarker (reject),,"Triiodothyronine (T3), Free",0.6742,False accept,False,
+EmbeddingGemma-300M,HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.7291,Correct match,True,
+EmbeddingGemma-300M,hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),Homocysteine,0.5395,Wrong match,False,
+EmbeddingGemma-300M,good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.6048,Correct match,True,
+EmbeddingGemma-300M,"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.6497,Correct match,True,
+EmbeddingGemma-300M,ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),"Testosterone, Total",0.4651,Wrong match,False,
+EmbeddingGemma-300M,bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),Triglycerides,0.591,Wrong match,False,
+EmbeddingGemma-300M,Trigs,Short abbreviation,Triglycerides,Triglycerides,0.6593,Correct match,True,
+EmbeddingGemma-300M,triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.7652,Correct match,True,
+EmbeddingGemma-300M,Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.5458,Correct match,True,
+EmbeddingGemma-300M,Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.6855,Correct match,True,
+EmbeddingGemma-300M,Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.5775,Correct match,True,
+EmbeddingGemma-300M,Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.8043,Correct match,True,
+EmbeddingGemma-300M,"HCY, Plasma",Long-form synonym or variant,Homocysteine,Chloride,0.576,Wrong match,False,
+EmbeddingGemma-300M,Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.8611,Correct match,True,
+EmbeddingGemma-300M,hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.7246,Correct match,True,
+EmbeddingGemma-300M,C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.6958,Correct match,True,
+EmbeddingGemma-300M,CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.7557,Correct match,True,
+EmbeddingGemma-300M,Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.8434,Correct match,True,
+EmbeddingGemma-300M,FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free",Ferritin,0.5113,Wrong match,False,
+EmbeddingGemma-300M,"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.8108,Correct match,True,
+EmbeddingGemma-300M,Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.7715,Correct match,True,
+EmbeddingGemma-300M,FT3,Short abbreviation,"Triiodothyronine (T3), Free",Ferritin,0.5226,Wrong match,False,
+EmbeddingGemma-300M,"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.8443,Correct match,True,
+EmbeddingGemma-300M,Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.5875,Correct match,True,
+EmbeddingGemma-300M,Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.811,Correct match,True,
+EmbeddingGemma-300M,TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.7264,Correct match,True,
+EmbeddingGemma-300M,DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.7362,Correct match,True,
+EmbeddingGemma-300M,DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Sodium,0.5076,Wrong match,False,
+EmbeddingGemma-300M,"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.7016,Correct match,True,
+EmbeddingGemma-300M,Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.675,Correct match,True,
+EmbeddingGemma-300M,"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.7637,Correct match,True,
+EmbeddingGemma-300M,Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.8492,Correct match,True,
+EmbeddingGemma-300M,"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.672,Correct match,True,
+EmbeddingGemma-300M,Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.8054,Correct match,True,
+EmbeddingGemma-300M,FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.7989,Correct match,True,
+EmbeddingGemma-300M,Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.8477,Correct match,True,
+EmbeddingGemma-300M,"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.6485,Correct match,True,
+EmbeddingGemma-300M,Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.7379,Correct match,True,
+EmbeddingGemma-300M,ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.7042,Correct match,True,
+EmbeddingGemma-300M,Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.739,Correct match,True,
+EmbeddingGemma-300M,Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Gamma-Glutamyl Transferase (GGT),0.6634,Wrong match,False,
+EmbeddingGemma-300M,AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.6715,Correct match,True,
+EmbeddingGemma-300M,Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.75,Correct match,True,
+EmbeddingGemma-300M,Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Gamma-Glutamyl Transferase (GGT),0.6966,Wrong match,False,
+EmbeddingGemma-300M,"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),"Iron, Total",0.7327,Wrong match,False,
+EmbeddingGemma-300M,Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatinine,0.8154,Wrong match,False,
+EmbeddingGemma-300M,Urate,Short abbreviation,Uric Acid,Uric Acid,0.7197,Correct match,True,
+EmbeddingGemma-300M,Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,0.8945,Correct match,True,
+EmbeddingGemma-300M,IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.6774,Correct match,True,
+EmbeddingGemma-300M,Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Homocysteine,0.5631,Wrong match,False,
+EmbeddingGemma-300M,"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.9269,Correct match,True,
+EmbeddingGemma-300M,25-OH-D,Short abbreviation,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.8244,Correct match,True,
+EmbeddingGemma-300M,"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.821,Correct match,True,
+EmbeddingGemma-300M,BUN,Short abbreviation,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.5944,Correct match,True,
+EmbeddingGemma-300M,"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.6726,Correct match,True,
+EmbeddingGemma-300M,"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.6593,Correct match,True,
+EmbeddingGemma-300M,"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.8258,Correct match,True,
+EmbeddingGemma-300M,ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.6268,Correct match,True,
+EmbeddingGemma-300M,Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Potassium,0.6604,Wrong match,False,
+EmbeddingGemma-300M,Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9426,Correct match,True,
+EmbeddingGemma-300M,Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9123,Correct match,True,
+EmbeddingGemma-300M,ALB,Short abbreviation,Albumin,Albumin,0.6297,Correct match,True,
+EmbeddingGemma-300M,WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.6558,Correct match,True,
+EmbeddingGemma-300M,Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.6323,Correct match,True,
+EmbeddingGemma-300M,RBC,Short abbreviation,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.6252,Correct match,True,
+EmbeddingGemma-300M,Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Hemoglobin (Hgb),0.6337,Wrong match,False,
+EmbeddingGemma-300M,HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.6573,Correct match,True,
+EmbeddingGemma-300M,Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin (Hgb),0.8579,Correct match,True,
+EmbeddingGemma-300M,HCT,Short abbreviation,Hematocrit (Hct),Hematocrit (Hct),0.6745,Correct match,True,
+EmbeddingGemma-300M,Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Mean Corpuscular Volume (MCV),0.6823,Wrong match,False,
+EmbeddingGemma-300M,Platelets,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.7246,Correct match,True,
+EmbeddingGemma-300M,Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),Hematocrit (Hct),0.5665,Wrong match,False,
+EmbeddingGemma-300M,MCV,Short abbreviation,Mean Corpuscular Volume (MCV),Mean Corpuscular Volume (MCV),0.7128,Correct match,True,
+EmbeddingGemma-300M,Serum Iron,Long-form synonym or variant,"Iron, Total",Ferritin,0.7732,Wrong match,False,
+EmbeddingGemma-300M,TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.6463,Correct match,True,
+EmbeddingGemma-300M,"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),"Iron, Total",0.8028,Wrong match,False,
+EmbeddingGemma-300M,Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,0.8736,Correct match,True,
+EmbeddingGemma-300M,TSAT,Short abbreviation,Transferrin Saturation,Transferrin Saturation,0.653,Correct match,True,
+EmbeddingGemma-300M,"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.8003,Correct match,True,
+EmbeddingGemma-300M,PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.7863,Correct match,True,
+EmbeddingGemma-300M,Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.6339,Correct match,True,
+EmbeddingGemma-300M,"Insulin, Fasting",Long-form synonym or variant,Insulin,Insulin,0.825,Correct match,True,
+EmbeddingGemma-300M,Na+,Short abbreviation,Sodium,Sodium,0.8629,Correct match,True,
+EmbeddingGemma-300M,K+,Short abbreviation,Potassium,Potassium,0.6315,Correct match,True,
+EmbeddingGemma-300M,Cl-,Short abbreviation,Chloride,Chloride,0.8777,Correct match,True,
+EmbeddingGemma-300M,"Sodium, Plasma",Long-form synonym or variant,Sodium,Sodium,0.7871,Correct match,True,
+EmbeddingGemma-300M,"Potassium, Serum",Long-form synonym or variant,Potassium,Potassium,0.8093,Correct match,True,
+EmbeddingGemma-300M,Complete Blood Count,Panel name (reject),,White Blood Cell Count (WBC),0.6959,False accept,False,
+EmbeddingGemma-300M,CBC w/ Differential,Panel name (reject),,,0.4969,Correct rejection,True,
+EmbeddingGemma-300M,Comprehensive Metabolic Panel,Panel name (reject),,,0.53,Correct rejection,True,
+EmbeddingGemma-300M,CMP,Panel name (reject),,,0.5689,Correct rejection,True,
+EmbeddingGemma-300M,Lipid Panel,Panel name (reject),,,0.5917,Correct rejection,True,
+EmbeddingGemma-300M,Blood Pressure,Non-biomarker (reject),,Hematocrit (Hct),0.6061,False accept,False,
+EmbeddingGemma-300M,Patient Name,Non-biomarker (reject),,,0.4886,Correct rejection,True,
+EmbeddingGemma-300M,Date of Birth,Non-biomarker (reject),,,0.5007,Correct rejection,True,
+EmbeddingGemma-300M,Lab Address,Non-biomarker (reject),,,0.4324,Correct rejection,True,
+EmbeddingGemma-300M,Fasting Status: Yes,Non-biomarker (reject),,,0.4235,Correct rejection,True,
+MedEmbed-large,HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8577,Correct match,True,
+MedEmbed-large,hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.7963,Correct match,True,
+MedEmbed-large,good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),Triglycerides,0.7432,Wrong match,False,
+MedEmbed-large,"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.772,Correct match,True,
+MedEmbed-large,ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.7326,Correct match,True,
+MedEmbed-large,bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.7367,Correct match,True,
+MedEmbed-large,Trigs,Short abbreviation,Triglycerides,Sodium,0.6374,Wrong match,False,
+MedEmbed-large,triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.8196,Correct match,True,
+MedEmbed-large,Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.6856,Correct match,True,
+MedEmbed-large,Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.7397,Correct match,True,
+MedEmbed-large,Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.6719,Correct match,True,
+MedEmbed-large,Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.901,Correct match,True,
+MedEmbed-large,"HCY, Plasma",Long-form synonym or variant,Homocysteine,Hemoglobin (Hgb),0.7033,Wrong match,False,
+MedEmbed-large,Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.8748,Correct match,True,
+MedEmbed-large,hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8304,Correct match,True,
+MedEmbed-large,C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.7856,Correct match,True,
+MedEmbed-large,CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8761,Correct match,True,
+MedEmbed-large,Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.8581,Correct match,True,
+MedEmbed-large,FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free","Iron, Total",0.6286,Wrong match,False,
+MedEmbed-large,"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.9038,Correct match,True,
+MedEmbed-large,Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.871,Correct match,True,
+MedEmbed-large,FT3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.6724,Correct match,True,
+MedEmbed-large,"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.9393,Correct match,True,
+MedEmbed-large,Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.7581,Correct match,True,
+MedEmbed-large,Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8117,Correct match,True,
+MedEmbed-large,TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.811,Correct match,True,
+MedEmbed-large,DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.8995,Correct match,True,
+MedEmbed-large,DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.8751,Correct match,True,
+MedEmbed-large,"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.832,Correct match,True,
+MedEmbed-large,Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.8372,Correct match,True,
+MedEmbed-large,"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.891,Correct match,True,
+MedEmbed-large,Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9611,Correct match,True,
+MedEmbed-large,"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.8502,Correct match,True,
+MedEmbed-large,Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.8887,Correct match,True,
+MedEmbed-large,FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.9123,Correct match,True,
+MedEmbed-large,Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.9137,Correct match,True,
+MedEmbed-large,"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.839,Correct match,True,
+MedEmbed-large,Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.8345,Correct match,True,
+MedEmbed-large,ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.7912,Correct match,True,
+MedEmbed-large,Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.829,Correct match,True,
+MedEmbed-large,Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Gamma-Glutamyl Transferase (GGT),0.7808,Wrong match,False,
+MedEmbed-large,AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.8105,Correct match,True,
+MedEmbed-large,Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.8729,Correct match,True,
+MedEmbed-large,Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Gamma-Glutamyl Transferase (GGT),0.7693,Wrong match,False,
+MedEmbed-large,"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),"Iron, Total",0.8032,Wrong match,False,
+MedEmbed-large,Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatine Kinase (CK),0.8917,Correct match,True,
+MedEmbed-large,Urate,Short abbreviation,Uric Acid,Uric Acid,0.842,Correct match,True,
+MedEmbed-large,Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,0.8324,Correct match,True,
+MedEmbed-large,IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.7847,Correct match,True,
+MedEmbed-large,Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.7278,Correct match,True,
+MedEmbed-large,"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.9407,Correct match,True,
+MedEmbed-large,25-OH-D,Short abbreviation,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.8722,Correct match,True,
+MedEmbed-large,"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.8802,Correct match,True,
+MedEmbed-large,BUN,Short abbreviation,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.7973,Correct match,True,
+MedEmbed-large,"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.8946,Correct match,True,
+MedEmbed-large,"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.8559,Correct match,True,
+MedEmbed-large,"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.8059,Correct match,True,
+MedEmbed-large,ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.7405,Correct match,True,
+MedEmbed-large,Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.8054,Correct match,True,
+MedEmbed-large,Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9698,Correct match,True,
+MedEmbed-large,Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9407,Correct match,True,
+MedEmbed-large,ALB,Short abbreviation,Albumin,Alkaline Phosphatase (ALP),0.651,Wrong match,False,
+MedEmbed-large,WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.9126,Correct match,True,
+MedEmbed-large,Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.7906,Correct match,True,
+MedEmbed-large,RBC,Short abbreviation,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.8708,Correct match,True,
+MedEmbed-large,Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.8398,Correct match,True,
+MedEmbed-large,HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.9253,Correct match,True,
+MedEmbed-large,Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin (Hgb),0.9269,Correct match,True,
+MedEmbed-large,HCT,Short abbreviation,Hematocrit (Hct),Hematocrit (Hct),0.8515,Correct match,True,
+MedEmbed-large,Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Mean Corpuscular Volume (MCV),0.749,Wrong match,False,
+MedEmbed-large,Platelets,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.7632,Correct match,True,
+MedEmbed-large,Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),Red Blood Cell Count (RBC),0.7002,Wrong match,False,
+MedEmbed-large,MCV,Short abbreviation,Mean Corpuscular Volume (MCV),Mean Corpuscular Volume (MCV),0.8282,Correct match,True,
+MedEmbed-large,Serum Iron,Long-form synonym or variant,"Iron, Total","Iron, Total",0.7453,Correct match,True,
+MedEmbed-large,TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.8043,Correct match,True,
+MedEmbed-large,"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.879,Correct match,True,
+MedEmbed-large,Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,0.9656,Correct match,True,
+MedEmbed-large,TSAT,Short abbreviation,Transferrin Saturation,Aspartate Aminotransferase (AST),0.6866,Wrong match,False,
+MedEmbed-large,"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.8724,Correct match,True,
+MedEmbed-large,PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.8534,Correct match,True,
+MedEmbed-large,Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.7847,Correct match,True,
+MedEmbed-large,"Insulin, Fasting",Long-form synonym or variant,Insulin,Insulin,0.8736,Correct match,True,
+MedEmbed-large,Na+,Short abbreviation,Sodium,Sodium,0.8645,Correct match,True,
+MedEmbed-large,K+,Short abbreviation,Potassium,Potassium,0.7928,Correct match,True,
+MedEmbed-large,Cl-,Short abbreviation,Chloride,Chloride,0.8297,Correct match,True,
+MedEmbed-large,"Sodium, Plasma",Long-form synonym or variant,Sodium,Sodium,0.8739,Correct match,True,
+MedEmbed-large,"Potassium, Serum",Long-form synonym or variant,Potassium,Potassium,0.8603,Correct match,True,
+MedEmbed-large,Complete Blood Count,Panel name (reject),,Red Blood Cell Count (RBC),0.7726,False accept,False,
+MedEmbed-large,CBC w/ Differential,Panel name (reject),,Total Iron-Binding Capacity (TIBC),0.6598,False accept,False,
+MedEmbed-large,Comprehensive Metabolic Panel,Panel name (reject),,Gamma-Glutamyl Transferase (GGT),0.6588,False accept,False,
+MedEmbed-large,CMP,Panel name (reject),,Alkaline Phosphatase (ALP),0.6544,False accept,False,
+MedEmbed-large,Lipid Panel,Panel name (reject),,Triglycerides,0.743,False accept,False,
+MedEmbed-large,Blood Pressure,Non-biomarker (reject),,Potassium,0.7384,False accept,False,
+MedEmbed-large,Patient Name,Non-biomarker (reject),,Creatine Kinase (CK),0.6229,False accept,False,
+MedEmbed-large,Date of Birth,Non-biomarker (reject),,Creatinine,0.6218,False accept,False,
+MedEmbed-large,Lab Address,Non-biomarker (reject),,,0.5997,Correct rejection,True,
+MedEmbed-large,Fasting Status: Yes,Non-biomarker (reject),,Blood Urea Nitrogen (BUN),0.6198,False accept,False,
+BioBERT-v1.2,HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.9138,Wrong match,False,
+BioBERT-v1.2,hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),Creatine Kinase (CK),0.8574,Wrong match,False,
+BioBERT-v1.2,good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.9029,Wrong match,False,
+BioBERT-v1.2,"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Total Iron-Binding Capacity (TIBC),0.846,Wrong match,False,
+BioBERT-v1.2,ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Blood Urea Nitrogen (BUN),0.8594,Wrong match,False,
+BioBERT-v1.2,bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),Low-Density Lipoprotein Cholesterol (LDL-C),0.9022,Correct match,True,
+BioBERT-v1.2,Trigs,Short abbreviation,Triglycerides,Uric Acid,0.8365,Wrong match,False,
+BioBERT-v1.2,triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.9671,Correct match,True,
+BioBERT-v1.2,Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.8685,Correct match,True,
+BioBERT-v1.2,Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.8819,Correct match,True,
+BioBERT-v1.2,Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Platelet Count (PLT),0.9015,Wrong match,False,
+BioBERT-v1.2,Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.9198,Correct match,True,
+BioBERT-v1.2,"HCY, Plasma",Long-form synonym or variant,Homocysteine,"Iron, Total",0.8692,Wrong match,False,
+BioBERT-v1.2,Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.9166,Correct match,True,
+BioBERT-v1.2,hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)",Total Iron-Binding Capacity (TIBC),0.843,Wrong match,False,
+BioBERT-v1.2,C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.8899,Correct match,True,
+BioBERT-v1.2,CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)",Transferrin Saturation,0.8872,Wrong match,False,
+BioBERT-v1.2,Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.8648,Correct match,True,
+BioBERT-v1.2,FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free",Platelet Count (PLT),0.8493,Wrong match,False,
+BioBERT-v1.2,"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.961,Correct match,True,
+BioBERT-v1.2,Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Iron, Total",0.8602,Wrong match,False,
+BioBERT-v1.2,FT3,Short abbreviation,"Triiodothyronine (T3), Free","Iron, Total",0.7951,Wrong match,False,
+BioBERT-v1.2,"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.9636,Correct match,True,
+BioBERT-v1.2,Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8611,Correct match,True,
+BioBERT-v1.2,Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.9614,Correct match,True,
+BioBERT-v1.2,TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.873,Correct match,True,
+BioBERT-v1.2,DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.8812,Correct match,True,
+BioBERT-v1.2,DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Transferrin Saturation,0.8169,Wrong match,False,
+BioBERT-v1.2,"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Hemoglobin (Hgb),0.8899,Wrong match,False,
+BioBERT-v1.2,Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Vitamin B12,0.8639,Wrong match,False,
+BioBERT-v1.2,"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9418,Correct match,True,
+BioBERT-v1.2,Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9522,Correct match,True,
+BioBERT-v1.2,"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),"Iron, Total",0.8782,Wrong match,False,
+BioBERT-v1.2,Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.9443,Correct match,True,
+BioBERT-v1.2,FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Ferritin,0.8477,Wrong match,False,
+BioBERT-v1.2,Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.9527,Correct match,True,
+BioBERT-v1.2,"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),"Iron, Total",0.8777,Wrong match,False,
+BioBERT-v1.2,Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.9415,Correct match,True,
+BioBERT-v1.2,ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Hemoglobin (Hgb),0.8802,Wrong match,False,
+BioBERT-v1.2,Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.9382,Correct match,True,
+BioBERT-v1.2,Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Gamma-Glutamyl Transferase (GGT),0.9078,Wrong match,False,
+BioBERT-v1.2,AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Total Iron-Binding Capacity (TIBC),0.8683,Wrong match,False,
+BioBERT-v1.2,Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.946,Correct match,True,
+BioBERT-v1.2,Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Gamma-Glutamyl Transferase (GGT),0.8961,Wrong match,False,
+BioBERT-v1.2,"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),"Iron, Total",0.8814,Wrong match,False,
+BioBERT-v1.2,Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatine Kinase (CK),0.9285,Correct match,True,
+BioBERT-v1.2,Urate,Short abbreviation,Uric Acid,Uric Acid,0.9324,Correct match,True,
+BioBERT-v1.2,Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,0.9371,Correct match,True,
+BioBERT-v1.2,IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Hemoglobin A1c (HbA1c),0.8899,Wrong match,False,
+BioBERT-v1.2,Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Blood Urea Nitrogen (BUN),0.8605,Wrong match,False,
+BioBERT-v1.2,"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.8827,Correct match,True,
+BioBERT-v1.2,25-OH-D,Short abbreviation,25-Hydroxyvitamin D,"Thyroxine (T4), Free",0.8174,Wrong match,False,
+BioBERT-v1.2,"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.9587,Correct match,True,
+BioBERT-v1.2,BUN,Short abbreviation,Blood Urea Nitrogen (BUN),Vitamin B12,0.8252,Wrong match,False,
+BioBERT-v1.2,"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.9194,Correct match,True,
+BioBERT-v1.2,"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Total Iron-Binding Capacity (TIBC),0.8824,Wrong match,False,
+BioBERT-v1.2,"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.9548,Correct match,True,
+BioBERT-v1.2,ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.8929,Correct match,True,
+BioBERT-v1.2,Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.912,Correct match,True,
+BioBERT-v1.2,Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9729,Correct match,True,
+BioBERT-v1.2,Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9683,Correct match,True,
+BioBERT-v1.2,ALB,Short abbreviation,Albumin,Vitamin B12,0.7568,Wrong match,False,
+BioBERT-v1.2,WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.9161,Correct match,True,
+BioBERT-v1.2,Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.8416,Correct match,True,
+BioBERT-v1.2,RBC,Short abbreviation,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.8289,Correct match,True,
+BioBERT-v1.2,Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.8474,Correct match,True,
+BioBERT-v1.2,HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.8855,Correct match,True,
+BioBERT-v1.2,Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin (Hgb),0.9335,Correct match,True,
+BioBERT-v1.2,HCT,Short abbreviation,Hematocrit (Hct),Uric Acid,0.8152,Wrong match,False,
+BioBERT-v1.2,Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Mean Corpuscular Volume (MCV),0.9421,Wrong match,False,
+BioBERT-v1.2,Platelets,Long-form synonym or variant,Platelet Count (PLT),Albumin,0.8425,Wrong match,False,
+BioBERT-v1.2,Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),Thyroid Peroxidase Antibodies (TPOAb),0.8705,Wrong match,False,
+BioBERT-v1.2,MCV,Short abbreviation,Mean Corpuscular Volume (MCV),White Blood Cell Count (WBC),0.8215,Wrong match,False,
+BioBERT-v1.2,Serum Iron,Long-form synonym or variant,"Iron, Total","Iron, Total",0.8854,Correct match,True,
+BioBERT-v1.2,TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.8335,Correct match,True,
+BioBERT-v1.2,"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.943,Correct match,True,
+BioBERT-v1.2,Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,0.9785,Correct match,True,
+BioBERT-v1.2,TSAT,Short abbreviation,Transferrin Saturation,Transferrin Saturation,0.7873,Correct match,True,
+BioBERT-v1.2,"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.9386,Correct match,True,
+BioBERT-v1.2,PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Iron, Total",0.8633,Wrong match,False,
+BioBERT-v1.2,Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.8953,Correct match,True,
+BioBERT-v1.2,"Insulin, Fasting",Long-form synonym or variant,Insulin,"Iron, Total",0.8599,Wrong match,False,
+BioBERT-v1.2,Na+,Short abbreviation,Sodium,Sodium,0.8217,Correct match,True,
+BioBERT-v1.2,K+,Short abbreviation,Potassium,Potassium,0.8246,Correct match,True,
+BioBERT-v1.2,Cl-,Short abbreviation,Chloride,Uric Acid,0.8203,Wrong match,False,
+BioBERT-v1.2,"Sodium, Plasma",Long-form synonym or variant,Sodium,"Iron, Total",0.9102,Wrong match,False,
+BioBERT-v1.2,"Potassium, Serum",Long-form synonym or variant,Potassium,"Iron, Total",0.9064,Wrong match,False,
+BioBERT-v1.2,Complete Blood Count,Panel name (reject),,White Blood Cell Count (WBC),0.8922,False accept,False,
+BioBERT-v1.2,CBC w/ Differential,Panel name (reject),,White Blood Cell Count (WBC),0.8522,False accept,False,
+BioBERT-v1.2,Comprehensive Metabolic Panel,Panel name (reject),,Transferrin Saturation,0.8656,False accept,False,
+BioBERT-v1.2,CMP,Panel name (reject),,Platelet Count (PLT),0.7933,False accept,False,
+BioBERT-v1.2,Lipid Panel,Panel name (reject),,Transferrin Saturation,0.8609,False accept,False,
+BioBERT-v1.2,Blood Pressure,Non-biomarker (reject),,Albumin,0.822,False accept,False,
+BioBERT-v1.2,Patient Name,Non-biomarker (reject),,Albumin,0.7649,False accept,False,
+BioBERT-v1.2,Date of Birth,Non-biomarker (reject),,Platelet Count (PLT),0.7606,False accept,False,
+BioBERT-v1.2,Lab Address,Non-biomarker (reject),,Insulin,0.7528,False accept,False,
+BioBERT-v1.2,Fasting Status: Yes,Non-biomarker (reject),,Blood Urea Nitrogen (BUN),0.8419,False accept,False,
+Fuzzy (WRatio),HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.5,Correct match,True,1.0
+Fuzzy (WRatio),good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Follicle-Stimulating Hormone (FSH),0.47999998927116394,Wrong match,False,17.0
+Fuzzy (WRatio),ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Sodium,0.44999998807907104,Wrong match,False,18.0
+Fuzzy (WRatio),bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8550000190734863,Wrong match,False,1.0
+Fuzzy (WRatio),Trigs,Short abbreviation,Triglycerides,Triglycerides,0.800000011920929,Correct match,True,1.0
+Fuzzy (WRatio),triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.7741935849189758,Correct match,True,1.0
+Fuzzy (WRatio),Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.514285683631897,Correct match,True,1.0
+Fuzzy (WRatio),Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Ferritin,0.534375011920929,Wrong match,False,7.0
+Fuzzy (WRatio),Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),High-Density Lipoprotein Cholesterol (HDL-C),0.8550000190734863,Wrong match,False,3.0
+Fuzzy (WRatio),"HCY, Plasma",Long-form synonym or variant,Homocysteine,Follicle-Stimulating Hormone (FSH),0.40909090638160706,Wrong match,False,9.0
+Fuzzy (WRatio),Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.95652174949646,Correct match,True,1.0
+Fuzzy (WRatio),hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)",Alkaline Phosphatase (ALP),0.5400000214576721,Wrong match,False,5.0
+Fuzzy (WRatio),C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.6840000152587891,Correct match,True,1.0
+Fuzzy (WRatio),CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.7200000286102295,Correct match,True,1.0
+Fuzzy (WRatio),Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free",Dehydroepiandrosterone Sulfate (DHEA-S),0.5,Wrong match,False,4.0
+Fuzzy (WRatio),"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.7069767713546753,Correct match,True,1.0
+Fuzzy (WRatio),Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Thyroxine (T4), Free",0.8550000190734863,Wrong match,False,1.0
+Fuzzy (WRatio),FT3,Short abbreviation,"Triiodothyronine (T3), Free",Triglycerides,0.44999998807907104,Wrong match,False,8.0
+Fuzzy (WRatio),"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Bilirubin, Total",0.8550000190734863,Wrong match,False,3.0
+Fuzzy (WRatio),Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.5625,Correct match,True,1.0
+Fuzzy (WRatio),Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8780487775802612,Correct match,True,1.0
+Fuzzy (WRatio),TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.7200000286102295,Correct match,True,1.0
+Fuzzy (WRatio),"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sodium,0.49090906977653503,Wrong match,False,3.0
+Fuzzy (WRatio),Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Thyroid-Stimulating Hormone (TSH),0.8550000190734863,Wrong match,False,1.0
+Fuzzy (WRatio),"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.882352888584137,Correct match,True,1.0
+Fuzzy (WRatio),Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9243243336677551,Correct match,True,1.0
+Fuzzy (WRatio),"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),Sodium,0.49090906977653503,Wrong match,False,2.0
+Fuzzy (WRatio),Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Thyroid-Stimulating Hormone (TSH),0.8550000190734863,Wrong match,False,3.0
+Fuzzy (WRatio),FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Thyroid-Stimulating Hormone (TSH),0.8550000190734863,Wrong match,False,1.0
+Fuzzy (WRatio),Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.8125,Correct match,True,1.0
+Fuzzy (WRatio),"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Sodium,0.49090906977653503,Wrong match,False,3.0
+Fuzzy (WRatio),Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.7666666507720947,Correct match,True,1.0
+Fuzzy (WRatio),ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Platelet Count (PLT),0.6352941393852234,Wrong match,False,3.0
+Fuzzy (WRatio),Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Albumin,0.514285683631897,Wrong match,False,13.0
+Fuzzy (WRatio),AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Gamma-Glutamyl Transferase (GGT),0.6631578803062439,Wrong match,False,1.0
+Fuzzy (WRatio),Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.6685185432434082,Correct match,True,1.0
+Fuzzy (WRatio),Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Albumin,0.514285683631897,Wrong match,False,10.0
+Fuzzy (WRatio),"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),"Testosterone, Total",0.8550000190734863,Wrong match,False,13.0
+Fuzzy (WRatio),Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatinine,0.8999999761581421,Wrong match,False,2.0
+Fuzzy (WRatio),Urate,Short abbreviation,Uric Acid,Aspartate Aminotransferase (AST),0.7200000286102295,Wrong match,False,17.0
+Fuzzy (WRatio),Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.4663636386394501,Correct match,True,1.0
+Fuzzy (WRatio),Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Sodium,0.6000000238418579,Wrong match,False,35.0
+Fuzzy (WRatio),"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,Vitamin B12,0.8550000190734863,Wrong match,False,2.0
+Fuzzy (WRatio),25-OH-D,Short abbreviation,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.6923076510429382,Correct match,True,1.0
+Fuzzy (WRatio),"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),BUN,Short abbreviation,Blood Urea Nitrogen (BUN),"Bilirubin, Total",0.6000000238418579,Wrong match,False,1.0
+Fuzzy (WRatio),"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.8022221922874451,Correct match,True,1.0
+Fuzzy (WRatio),"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.7599999904632568,Correct match,True,1.0
+Fuzzy (WRatio),ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.5625,Correct match,True,1.0
+Fuzzy (WRatio),Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.8666666150093079,Correct match,True,1.0
+Fuzzy (WRatio),Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9677419066429138,Correct match,True,1.0
+Fuzzy (WRatio),Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9193548560142517,Correct match,True,1.0
+Fuzzy (WRatio),ALB,Short abbreviation,Albumin,Albumin,0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.8550000190734863,Correct match,True,1.0
+Fuzzy (WRatio),Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),Luteinizing Hormone (LH),0.514285683631897,Wrong match,False,9.0
+Fuzzy (WRatio),RBC,Short abbreviation,Red Blood Cell Count (RBC),"Bilirubin, Total",0.6000000238418579,Wrong match,False,1.0
+Fuzzy (WRatio),Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Homocysteine,0.5,Wrong match,False,31.0
+Fuzzy (WRatio),HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin A1c (HbA1c),0.8571428656578064,Wrong match,False,2.0
+Fuzzy (WRatio),HCT,Short abbreviation,Hematocrit (Hct),Hematocrit (Hct),0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Mean Corpuscular Volume (MCV),0.6037735939025879,Wrong match,False,9.0
+Fuzzy (WRatio),Platelets,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.8470587730407715,Correct match,True,1.0
+Fuzzy (WRatio),Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),Homocysteine,0.6666666269302368,Wrong match,False,41.0
+Fuzzy (WRatio),MCV,Short abbreviation,Mean Corpuscular Volume (MCV),Homocysteine,0.6000000238418579,Wrong match,False,1.0
+Fuzzy (WRatio),Serum Iron,Long-form synonym or variant,"Iron, Total",Sex Hormone-Binding Globulin (SHBG),0.5400000214576721,Wrong match,False,10.0
+Fuzzy (WRatio),TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.6000000238418579,Correct match,True,1.0
+Fuzzy (WRatio),"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),"Bilirubin, Total",0.8550000190734863,Wrong match,False,3.0
+Fuzzy (WRatio),Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,0.95652174949646,Correct match,True,1.0
+Fuzzy (WRatio),TSAT,Short abbreviation,Transferrin Saturation,Transferrin Saturation,0.7328571081161499,Correct match,True,1.0
+Fuzzy (WRatio),"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Testosterone, Total",0.8550000190734863,Wrong match,False,1.0
+Fuzzy (WRatio),Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.8307691812515259,Correct match,True,1.0
+Fuzzy (WRatio),"Insulin, Fasting",Long-form synonym or variant,Insulin,Insulin,0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),Na+,Short abbreviation,Sodium,Lipoprotein(a) (Lp(a)),0.6000000238418579,Wrong match,False,44.0
+Fuzzy (WRatio),K+,Short abbreviation,Potassium,Alkaline Phosphatase (ALP),0.30000001192092896,Wrong match,False,4.0
+Fuzzy (WRatio),Cl-,Short abbreviation,Chloride,Chloride,0.6000000238418579,Correct match,True,1.0
+Fuzzy (WRatio),"Sodium, Plasma",Long-form synonym or variant,Sodium,Sodium,0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),"Potassium, Serum",Long-form synonym or variant,Potassium,Potassium,0.8999999761581421,Correct match,True,1.0
+Fuzzy (WRatio),Complete Blood Count,Panel name (reject),,White Blood Cell Count (WBC),0.6741935610771179,False accept,False,
+Fuzzy (WRatio),CBC w/ Differential,Panel name (reject),,Ferritin,0.5625,Correct rejection,True,
+Fuzzy (WRatio),Comprehensive Metabolic Panel,Panel name (reject),,Chloride,0.514285683631897,Correct rejection,True,
+Fuzzy (WRatio),CMP,Panel name (reject),,Creatinine,0.44999998807907104,Correct rejection,True,
+Fuzzy (WRatio),Lipid Panel,Panel name (reject),,"Prostate-Specific Antigen (PSA), Total",0.49090906977653503,Correct rejection,True,
+Fuzzy (WRatio),Blood Pressure,Non-biomarker (reject),,Blood Urea Nitrogen (BUN),0.8550000190734863,False accept,False,
+Fuzzy (WRatio),Patient Name,Non-biomarker (reject),,Creatine Kinase (CK),0.6000000238418579,False accept,False,
+Fuzzy (WRatio),Date of Birth,Non-biomarker (reject),,Aspartate Aminotransferase (AST),0.4749999940395355,Correct rejection,True,
+Fuzzy (WRatio),Lab Address,Non-biomarker (reject),,Thyroid Peroxidase Antibodies (TPOAb),0.40909090638160706,Correct rejection,True,
+Fuzzy (WRatio),Fasting Status: Yes,Non-biomarker (reject),,Ferritin,0.514285683631897,Correct rejection,True,
+Fuzzy (token set),HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8461538553237915,Correct match,True,1.0
+Fuzzy (token set),hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),Hematocrit (Hct),0.3571428656578064,Wrong match,False,17.0
+Fuzzy (token set),good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8148148059844971,Correct match,True,1.0
+Fuzzy (token set),"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Platelet Count (PLT),0.4571428596973419,Wrong match,False,12.0
+Fuzzy (token set),ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Red Blood Cell Count (RBC),0.4166666865348816,Wrong match,False,8.0
+Fuzzy (token set),bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.8461538553237915,Wrong match,False,1.0
+Fuzzy (token set),Trigs,Short abbreviation,Triglycerides,Triglycerides,0.5555555820465088,Correct match,True,1.0
+Fuzzy (token set),triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.7741935849189758,Correct match,True,1.0
+Fuzzy (token set),Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.3125,Correct match,True,1.0
+Fuzzy (token set),Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.5625,Correct match,True,1.0
+Fuzzy (token set),Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Aspartate Aminotransferase (AST),0.4905660152435303,Wrong match,False,4.0
+Fuzzy (token set),Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),High-Density Lipoprotein Cholesterol (HDL-C),0.9166666269302368,Wrong match,False,3.0
+Fuzzy (token set),"HCY, Plasma",Long-form synonym or variant,Homocysteine,Potassium,0.4000000059604645,Wrong match,False,4.0
+Fuzzy (token set),Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.95652174949646,Correct match,True,1.0
+Fuzzy (token set),hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)",Chloride,0.307692289352417,Wrong match,False,7.0
+Fuzzy (token set),C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)",Creatine Kinase (CK),0.5,Wrong match,False,13.0
+Fuzzy (token set),CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.5846154093742371,Correct match,True,1.0
+Fuzzy (token set),Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.7272727489471436,Correct match,True,1.0
+Fuzzy (token set),FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free",Ferritin,0.47058823704719543,Wrong match,False,3.0
+Fuzzy (token set),"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.7441860437393188,Correct match,True,1.0
+Fuzzy (token set),Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Thyroxine (T4), Free",0.7272727489471436,Wrong match,False,1.0
+Fuzzy (token set),FT3,Short abbreviation,"Triiodothyronine (T3), Free",Ferritin,0.3636363744735718,Wrong match,False,7.0
+Fuzzy (token set),"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.8363636136054993,Correct match,True,1.0
+Fuzzy (token set),Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Creatinine,0.3333333134651184,Wrong match,False,6.0
+Fuzzy (token set),Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.9230769276618958,Correct match,True,1.0
+Fuzzy (token set),TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.8333333730697632,Correct match,True,1.0
+Fuzzy (token set),DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.7368420958518982,Correct match,True,1.0
+Fuzzy (token set),DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Triglycerides,0.3333333134651184,Wrong match,False,8.0
+Fuzzy (token set),"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sodium,0.3529411554336548,Wrong match,False,6.0
+Fuzzy (token set),Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Thyroid-Stimulating Hormone (TSH),0.6666666269302368,Wrong match,False,4.0
+Fuzzy (token set),"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9285714030265808,Correct match,True,1.0
+Fuzzy (token set),Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9729729294776917,Correct match,True,1.0
+Fuzzy (token set),"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),Sodium,0.4000000059604645,Wrong match,False,6.0
+Fuzzy (token set),Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.8372093439102173,Correct match,True,1.0
+Fuzzy (token set),FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Thyroid-Stimulating Hormone (TSH),0.7777777910232544,Wrong match,False,1.0
+Fuzzy (token set),Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.8125,Correct match,True,1.0
+Fuzzy (token set),"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Potassium,0.42105263471603394,Wrong match,False,3.0
+Fuzzy (token set),Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.7666666507720947,Correct match,True,1.0
+Fuzzy (token set),ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Platelet Count (PLT),0.5333333015441895,Wrong match,False,8.0
+Fuzzy (token set),Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.6399999856948853,Correct match,True,1.0
+Fuzzy (token set),Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Gamma-Glutamyl Transferase (GGT),0.4776119291782379,Wrong match,False,2.0
+Fuzzy (token set),AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Hematocrit (Hct),0.4615384638309479,Wrong match,False,4.0
+Fuzzy (token set),Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.7037037014961243,Correct match,True,1.0
+Fuzzy (token set),Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Gamma-Glutamyl Transferase (GGT),0.47887325286865234,Wrong match,False,3.0
+Fuzzy (token set),"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),"Testosterone, Total",0.7142857313156128,Wrong match,False,7.0
+Fuzzy (token set),Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatinine,1.0,Wrong match,False,2.0
+Fuzzy (token set),Urate,Short abbreviation,Uric Acid,Creatinine,0.5333333015441895,Wrong match,False,7.0
+Fuzzy (token set),Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,1.0,Correct match,True,1.0
+Fuzzy (token set),IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Triglycerides,0.37037035822868347,Wrong match,False,2.0
+Fuzzy (token set),Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Hematocrit (Hct),0.48275864124298096,Wrong match,False,40.0
+Fuzzy (token set),"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.8500000238418579,Correct match,True,1.0
+Fuzzy (token set),25-OH-D,Short abbreviation,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.38461539149284363,Correct match,True,1.0
+Fuzzy (token set),"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.7407407164573669,Correct match,True,1.0
+Fuzzy (token set),BUN,Short abbreviation,Blood Urea Nitrogen (BUN),Albumin,0.6000000238418579,Wrong match,False,6.0
+Fuzzy (token set),"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.8444444537162781,Correct match,True,1.0
+Fuzzy (token set),"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.7826087474822998,Correct match,True,1.0
+Fuzzy (token set),"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.800000011920929,Correct match,True,1.0
+Fuzzy (token set),ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.47058823704719543,Correct match,True,1.0
+Fuzzy (token set),Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.7272727489471436,Correct match,True,1.0
+Fuzzy (token set),Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9677419066429138,Correct match,True,1.0
+Fuzzy (token set),Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.9677419066429138,Correct match,True,1.0
+Fuzzy (token set),ALB,Short abbreviation,Albumin,Albumin,0.6000000238418579,Correct match,True,1.0
+Fuzzy (token set),WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.7142857313156128,Correct match,True,1.0
+Fuzzy (token set),Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),Homocysteine,0.45454543828964233,Wrong match,False,16.0
+Fuzzy (token set),RBC,Short abbreviation,Red Blood Cell Count (RBC),Uric Acid,0.3333333134651184,Wrong match,False,4.0
+Fuzzy (token set),Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Homocysteine,0.5,Wrong match,False,18.0
+Fuzzy (token set),HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.31578946113586426,Correct match,True,1.0
+Fuzzy (token set),Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin (Hgb),0.7407407164573669,Correct match,True,1.0
+Fuzzy (token set),HCT,Short abbreviation,Hematocrit (Hct),Homocysteine,0.4000000059604645,Wrong match,False,2.0
+Fuzzy (token set),Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Mean Corpuscular Volume (MCV),0.6037735939025879,Wrong match,False,18.0
+Fuzzy (token set),Platelets,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.5517241358757019,Correct match,True,1.0
+Fuzzy (token set),Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),Homocysteine,0.6666666269302368,Wrong match,False,26.0
+Fuzzy (token set),MCV,Short abbreviation,Mean Corpuscular Volume (MCV),Homocysteine,0.2666666507720947,Wrong match,False,5.0
+Fuzzy (token set),Serum Iron,Long-form synonym or variant,"Iron, Total","Iron, Total",0.4761904776096344,Correct match,True,1.0
+Fuzzy (token set),TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Triglycerides,0.3529411554336548,Wrong match,False,9.0
+Fuzzy (token set),"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.6774193644523621,Correct match,True,1.0
+Fuzzy (token set),Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,1.0,Correct match,True,1.0
+Fuzzy (token set),TSAT,Short abbreviation,Transferrin Saturation,Potassium,0.307692289352417,Wrong match,False,10.0
+Fuzzy (token set),"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.695652186870575,Correct match,True,1.0
+Fuzzy (token set),PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Testosterone, Total",0.7142857313156128,Wrong match,False,1.0
+Fuzzy (token set),Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.6551724076271057,Correct match,True,1.0
+Fuzzy (token set),"Insulin, Fasting",Long-form synonym or variant,Insulin,Insulin,0.6086956262588501,Correct match,True,1.0
+Fuzzy (token set),Na+,Short abbreviation,Sodium,"Iron, Total",0.2857142686843872,Wrong match,False,44.0
+Fuzzy (token set),K+,Short abbreviation,Potassium,Creatine Kinase (CK),0.09090909361839294,Wrong match,False,4.0
+Fuzzy (token set),Cl-,Short abbreviation,Chloride,Chloride,0.3636363744735718,Correct match,True,1.0
+Fuzzy (token set),"Sodium, Plasma",Long-form synonym or variant,Sodium,Potassium,0.6086956262588501,Wrong match,False,2.0
+Fuzzy (token set),"Potassium, Serum",Long-form synonym or variant,Potassium,Potassium,0.7200000286102295,Correct match,True,1.0
+Fuzzy (token set),Complete Blood Count,Panel name (reject),,White Blood Cell Count (WBC),0.7096774578094482,False accept,False,
+Fuzzy (token set),CBC w/ Differential,Panel name (reject),,"Bilirubin, Total",0.4000000059604645,Correct rejection,True,
+Fuzzy (token set),Comprehensive Metabolic Panel,Panel name (reject),,Mean Corpuscular Volume (MCV),0.37931033968925476,Correct rejection,True,
+Fuzzy (token set),CMP,Panel name (reject),,Sodium,0.2222222089767456,Correct rejection,True,
+Fuzzy (token set),Lipid Panel,Panel name (reject),,"Bilirubin, Total",0.4444444179534912,Correct rejection,True,
+Fuzzy (token set),Blood Pressure,Non-biomarker (reject),,Blood Urea Nitrogen (BUN),0.5641025304794312,Correct rejection,True,
+Fuzzy (token set),Patient Name,Non-biomarker (reject),,Creatinine,0.45454543828964233,Correct rejection,True,
+Fuzzy (token set),Date of Birth,Non-biomarker (reject),,"Iron, Total",0.4166666865348816,Correct rejection,True,
+Fuzzy (token set),Lab Address,Non-biomarker (reject),,Dehydroepiandrosterone Sulfate (DHEA-S),0.36000001430511475,Correct rejection,True,
+Fuzzy (token set),Fasting Status: Yes,Non-biomarker (reject),,Transferrin Saturation,0.4390243887901306,Correct rejection,True,
+TF-IDF char n-gram,HDL Cholesterol,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.4794217135527366,Correct match,True,1.0
+TF-IDF char n-gram,hdl-c direct,Long-form synonym or variant,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.1701580032543447,Correct match,True,1.0
+TF-IDF char n-gram,good cholesterol,Lay term,High-Density Lipoprotein Cholesterol (HDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.40361350661937956,Correct match,True,1.0
+TF-IDF char n-gram,"LDL, Calculated",Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Estimated Glomerular Filtration Rate (eGFR),0.14467021266016436,Wrong match,False,4.0
+TF-IDF char n-gram,ldl direct measurement,Long-form synonym or variant,Low-Density Lipoprotein Cholesterol (LDL-C),Mean Corpuscular Volume (MCV),0.1081143605587579,Wrong match,False,2.0
+TF-IDF char n-gram,bad cholesterol,Lay term,Low-Density Lipoprotein Cholesterol (LDL-C),High-Density Lipoprotein Cholesterol (HDL-C),0.4105523289006711,Wrong match,False,2.0
+TF-IDF char n-gram,Trigs,Short abbreviation,Triglycerides,Triglycerides,0.32600434527142325,Correct match,True,1.0
+TF-IDF char n-gram,triglyceride panel,Long-form synonym or variant,Triglycerides,Triglycerides,0.7611181625195349,Correct match,True,1.0
+TF-IDF char n-gram,Apo B-100,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.20805353904936322,Correct match,True,1.0
+TF-IDF char n-gram,Apolipo B,Long-form synonym or variant,Apolipoprotein B (ApoB),Apolipoprotein B (ApoB),0.6058294723951745,Correct match,True,1.0
+TF-IDF char n-gram,Lp(a) particle number,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Lipoprotein(a) (Lp(a)),0.26181501713035465,Correct match,True,1.0
+TF-IDF char n-gram,Lipoprotein a,Long-form synonym or variant,Lipoprotein(a) (Lp(a)),Apolipoprotein B (ApoB),0.5555926107315229,Wrong match,False,2.0
+TF-IDF char n-gram,"HCY, Plasma",Long-form synonym or variant,Homocysteine,Platelet Count (PLT),0.1407170361151584,Wrong match,False,3.0
+TF-IDF char n-gram,Homocystine,Long-form synonym or variant,Homocysteine,Homocysteine,0.7755740559060961,Correct match,True,1.0
+TF-IDF char n-gram,hsCRP,Short abbreviation,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.0921191567717085,Correct match,True,1.0
+TF-IDF char n-gram,C Reactive Protein (Cardiac),Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.3647548186770325,Correct match,True,1.0
+TF-IDF char n-gram,CRP High Sensitivity,Long-form synonym or variant,"C-Reactive Protein, High-Sensitivity (hs-CRP)","C-Reactive Protein, High-Sensitivity (hs-CRP)",0.5145541709769396,Correct match,True,1.0
+TF-IDF char n-gram,Free T4,Short abbreviation,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.38431346094827434,Correct match,True,1.0
+TF-IDF char n-gram,FT4 index,Long-form synonym or variant,"Thyroxine (T4), Free",Sex Hormone-Binding Globulin (SHBG),0.11649594919694764,Wrong match,False,4.0
+TF-IDF char n-gram,"Thyroxine, Free, Direct",Long-form synonym or variant,"Thyroxine (T4), Free","Thyroxine (T4), Free",0.5137747673086892,Correct match,True,1.0
+TF-IDF char n-gram,Free T3,Short abbreviation,"Triiodothyronine (T3), Free","Thyroxine (T4), Free",0.3437222516476369,Wrong match,False,2.0
+TF-IDF char n-gram,FT3,Short abbreviation,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.057970725890285846,Correct match,True,1.0
+TF-IDF char n-gram,"Total Triiodothyronine, Free",Long-form synonym or variant,"Triiodothyronine (T3), Free","Triiodothyronine (T3), Free",0.7653808789144676,Correct match,True,1.0
+TF-IDF char n-gram,Anti-TPO,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.18873745376698997,Correct match,True,1.0
+TF-IDF char n-gram,Thyroid Peroxidase Ab,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.6549672641564334,Correct match,True,1.0
+TF-IDF char n-gram,TPO Antibodies,Long-form synonym or variant,Thyroid Peroxidase Antibodies (TPOAb),Thyroid Peroxidase Antibodies (TPOAb),0.5193597133430632,Correct match,True,1.0
+TF-IDF char n-gram,DHEA Sulfate,Long-form synonym or variant,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.4193710408161134,Correct match,True,1.0
+TF-IDF char n-gram,DHEAS,Short abbreviation,Dehydroepiandrosterone Sulfate (DHEA-S),Dehydroepiandrosterone Sulfate (DHEA-S),0.1480359586961197,Correct match,True,1.0
+TF-IDF char n-gram,"SHBG, serum",Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.173673267641485,Correct match,True,1.0
+TF-IDF char n-gram,Sex Hormone BG,Long-form synonym or variant,Sex Hormone-Binding Globulin (SHBG),Sex Hormone-Binding Globulin (SHBG),0.4313858803838978,Correct match,True,1.0
+TF-IDF char n-gram,"Testosterone, T",Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.8734248244342505,Correct match,True,1.0
+TF-IDF char n-gram,Total Testosterone,Long-form synonym or variant,"Testosterone, Total","Testosterone, Total",0.9145038621764336,Correct match,True,1.0
+TF-IDF char n-gram,"LH, Serum",Long-form synonym or variant,Luteinizing Hormone (LH),Sodium,0.11592117911520258,Wrong match,False,3.0
+TF-IDF char n-gram,Luteinising Hormone,Long-form synonym or variant,Luteinizing Hormone (LH),Luteinizing Hormone (LH),0.6271964412675198,Correct match,True,1.0
+TF-IDF char n-gram,FSH Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.3696227326881035,Correct match,True,1.0
+TF-IDF char n-gram,Follicular Stimulating Hormone,Long-form synonym or variant,Follicle-Stimulating Hormone (FSH),Follicle-Stimulating Hormone (FSH),0.667080853365235,Correct match,True,1.0
+TF-IDF char n-gram,"GGT, serum",Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.11128336077824917,Correct match,True,1.0
+TF-IDF char n-gram,Gamma-Glutamyltranspeptidase,Long-form synonym or variant,Gamma-Glutamyl Transferase (GGT),Gamma-Glutamyl Transferase (GGT),0.5855289756218499,Correct match,True,1.0
+TF-IDF char n-gram,ALT (SGPT),Short abbreviation,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.1427179801566372,Correct match,True,1.0
+TF-IDF char n-gram,Alanine Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Alanine Aminotransferase (ALT),0.5547786048036837,Correct match,True,1.0
+TF-IDF char n-gram,Serum Glutamic-Pyruvic Transaminase,Long-form synonym or variant,Alanine Aminotransferase (ALT),Gamma-Glutamyl Transferase (GGT),0.2590279913783212,Wrong match,False,2.0
+TF-IDF char n-gram,AST (SGOT),Short abbreviation,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.1490684163535227,Correct match,True,1.0
+TF-IDF char n-gram,Aspartate Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Aspartate Aminotransferase (AST),0.6062151887618861,Correct match,True,1.0
+TF-IDF char n-gram,Serum Glutamic-Oxaloacetic Transaminase,Long-form synonym or variant,Aspartate Aminotransferase (AST),Gamma-Glutamyl Transferase (GGT),0.24318041270204183,Wrong match,False,3.0
+TF-IDF char n-gram,"CK, Total",Long-form synonym or variant,Creatine Kinase (CK),"Iron, Total",0.41460019222640626,Wrong match,False,7.0
+TF-IDF char n-gram,Creatinine Kinase,Long-form synonym or variant,Creatine Kinase (CK),Creatinine,0.7778476232232892,Wrong match,False,2.0
+TF-IDF char n-gram,Urate,Short abbreviation,Uric Acid,Estimated Glomerular Filtration Rate (eGFR),0.2309475146047799,Wrong match,False,3.0
+TF-IDF char n-gram,Serum Uric Acid,Long-form synonym or variant,Uric Acid,Uric Acid,0.8514458365936224,Correct match,True,1.0
+TF-IDF char n-gram,IGF-1 by LC/MS,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Insulin-like Growth Factor 1 (IGF-1),0.17185046251923808,Correct match,True,1.0
+TF-IDF char n-gram,Somatomedin C,Long-form synonym or variant,Insulin-like Growth Factor 1 (IGF-1),Sodium,0.12407757045524515,Wrong match,False,28.0
+TF-IDF char n-gram,"Vitamin D, 25-Hydroxy",Long-form synonym or variant,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.7813128831798855,Correct match,True,1.0
+TF-IDF char n-gram,25-OH-D,Short abbreviation,25-Hydroxyvitamin D,25-Hydroxyvitamin D,0.18804001912925028,Correct match,True,1.0
+TF-IDF char n-gram,"Creatinine, Serum",Long-form synonym or variant,Creatinine,Creatinine,0.7435580925728622,Correct match,True,1.0
+TF-IDF char n-gram,BUN,Short abbreviation,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.15384074612350623,Correct match,True,1.0
+TF-IDF char n-gram,"Urea Nitrogen, Blood",Long-form synonym or variant,Blood Urea Nitrogen (BUN),Blood Urea Nitrogen (BUN),0.7662524866072847,Correct match,True,1.0
+TF-IDF char n-gram,"GFR, Estimated",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.4358620881052249,Correct match,True,1.0
+TF-IDF char n-gram,"Glomerular Filtration Rate, Est.",Long-form synonym or variant,Estimated Glomerular Filtration Rate (eGFR),Estimated Glomerular Filtration Rate (eGFR),0.7208063228867865,Correct match,True,1.0
+TF-IDF char n-gram,ALK Phos,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.3776643310226344,Correct match,True,1.0
+TF-IDF char n-gram,Alkaline Phos.,Long-form synonym or variant,Alkaline Phosphatase (ALP),Alkaline Phosphatase (ALP),0.5889105357042009,Correct match,True,1.0
+TF-IDF char n-gram,Bilirubin Total,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.8957736788648837,Correct match,True,1.0
+TF-IDF char n-gram,Total Bilirubin,Long-form synonym or variant,"Bilirubin, Total","Bilirubin, Total",0.8957736788648837,Correct match,True,1.0
+TF-IDF char n-gram,ALB,Short abbreviation,Albumin,Albumin,0.38891143918577703,Correct match,True,1.0
+TF-IDF char n-gram,WBC Count,Long-form synonym or variant,White Blood Cell Count (WBC),White Blood Cell Count (WBC),0.42878469143104175,Correct match,True,1.0
+TF-IDF char n-gram,Leukocytes,Long-form synonym or variant,White Blood Cell Count (WBC),Homocysteine,0.08999698226272963,Wrong match,False,15.0
+TF-IDF char n-gram,RBC,Short abbreviation,Red Blood Cell Count (RBC),Red Blood Cell Count (RBC),0.16850325149002082,Correct match,True,1.0
+TF-IDF char n-gram,Erythrocytes,Long-form synonym or variant,Red Blood Cell Count (RBC),Homocysteine,0.0809766703971695,Wrong match,False,30.0
+TF-IDF char n-gram,HGB,Short abbreviation,Hemoglobin (Hgb),Hemoglobin (Hgb),0.19094853135498885,Correct match,True,1.0
+TF-IDF char n-gram,Haemoglobin,Long-form synonym or variant,Hemoglobin (Hgb),Hemoglobin (Hgb),0.5581169039277464,Correct match,True,1.0
+TF-IDF char n-gram,HCT,Short abbreviation,Hematocrit (Hct),Hematocrit (Hct),0.1915565603463839,Correct match,True,1.0
+TF-IDF char n-gram,Packed Cell Volume (PCV),Long-form synonym or variant,Hematocrit (Hct),Mean Corpuscular Volume (MCV),0.3434374387934968,Wrong match,False,36.0
+TF-IDF char n-gram,Platelets,Long-form synonym or variant,Platelet Count (PLT),Platelet Count (PLT),0.5283304329499262,Correct match,True,1.0
+TF-IDF char n-gram,Thrombocytes,Long-form synonym or variant,Platelet Count (PLT),Homocysteine,0.1061789664162706,Wrong match,False,22.0
+TF-IDF char n-gram,MCV,Short abbreviation,Mean Corpuscular Volume (MCV),Mean Corpuscular Volume (MCV),0.14187313009476749,Correct match,True,1.0
+TF-IDF char n-gram,Serum Iron,Long-form synonym or variant,"Iron, Total","Iron, Total",0.3492399422189119,Correct match,True,1.0
+TF-IDF char n-gram,TIBC,Short abbreviation,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.1888955703031913,Correct match,True,1.0
+TF-IDF char n-gram,"Iron Binding Capacity, Total",Long-form synonym or variant,Total Iron-Binding Capacity (TIBC),Total Iron-Binding Capacity (TIBC),0.6960054613314309,Correct match,True,1.0
+TF-IDF char n-gram,Transferrin % Saturation,Long-form synonym or variant,Transferrin Saturation,Transferrin Saturation,0.9614276386974411,Correct match,True,1.0
+TF-IDF char n-gram,TSAT,Short abbreviation,Transferrin Saturation,Transferrin Saturation,0.10667947086058038,Correct match,True,1.0
+TF-IDF char n-gram,"Ferritin, Serum",Long-form synonym or variant,Ferritin,Ferritin,0.7095844861415638,Correct match,True,1.0
+TF-IDF char n-gram,PSA Total,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Iron, Total",0.39924529264360603,Wrong match,False,4.0
+TF-IDF char n-gram,Prostate Specific Ag,Long-form synonym or variant,"Prostate-Specific Antigen (PSA), Total","Prostate-Specific Antigen (PSA), Total",0.5535112981246727,Correct match,True,1.0
+TF-IDF char n-gram,"Insulin, Fasting",Long-form synonym or variant,Insulin,Insulin,0.6096323061040401,Correct match,True,1.0
+TF-IDF char n-gram,Na+,Short abbreviation,Sodium,Blood Urea Nitrogen (BUN),0.033620588691043715,Wrong match,False,3.0
+TF-IDF char n-gram,K+,Short abbreviation,Potassium,Creatine Kinase (CK),0.05687240633812087,Wrong match,False,2.0
+TF-IDF char n-gram,Cl-,Short abbreviation,Chloride,High-Density Lipoprotein Cholesterol (HDL-C),0.03882867332749809,Wrong match,False,7.0
+TF-IDF char n-gram,"Sodium, Plasma",Long-form synonym or variant,Sodium,Sodium,0.5662844419036301,Correct match,True,1.0
+TF-IDF char n-gram,"Potassium, Serum",Long-form synonym or variant,Potassium,Potassium,0.7829126087129719,Correct match,True,1.0
+TF-IDF char n-gram,Complete Blood Count,Panel name (reject),,Red Blood Cell Count (RBC),0.4635178453686992,Correct rejection,True,
+TF-IDF char n-gram,CBC w/ Differential,Panel name (reject),,"Prostate-Specific Antigen (PSA), Total",0.07202928512933363,Correct rejection,True,
+TF-IDF char n-gram,Comprehensive Metabolic Panel,Panel name (reject),,"C-Reactive Protein, High-Sensitivity (hs-CRP)",0.12311314609247123,Correct rejection,True,
+TF-IDF char n-gram,CMP,Panel name (reject),,Red Blood Cell Count (RBC),0.026263547385090638,Correct rejection,True,
+TF-IDF char n-gram,Lipid Panel,Panel name (reject),,Lipoprotein(a) (Lp(a)),0.10210732910841298,Correct rejection,True,
+TF-IDF char n-gram,Blood Pressure,Non-biomarker (reject),,Blood Urea Nitrogen (BUN),0.28173458631173537,Correct rejection,True,
+TF-IDF char n-gram,Patient Name,Non-biomarker (reject),,Platelet Count (PLT),0.07612924759053781,Correct rejection,True,
+TF-IDF char n-gram,Date of Birth,Non-biomarker (reject),,"Bilirubin, Total",0.0930423400316612,Correct rejection,True,
+TF-IDF char n-gram,Lab Address,Non-biomarker (reject),,Thyroid Peroxidase Antibodies (TPOAb),0.04126272226208094,Correct rejection,True,
+TF-IDF char n-gram,Fasting Status: Yes,Non-biomarker (reject),,Follicle-Stimulating Hormone (FSH),0.11941666761273191,Correct rejection,True,
